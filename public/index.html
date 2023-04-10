@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/src/css/main.css" />
     <script>
       tailwind.config = {
         theme: {
@@ -48,7 +48,7 @@
   <body class="font-sans">
     <header class="container mx-auto flex justify-between pt-[20px]">
       <div class="w-[226px] h-[113px]">
-        <img src="/assets/img/icons/logo.png" alt="logo" />
+        <img src="/src/img/icons/logo.png" alt="logo" />
       </div>
       <div class="flex flex-col justify-between">
         <div
@@ -62,7 +62,7 @@
           />
           <div class="w-[18px] h-[18px]">
             <img
-              src="/assets/img/icons/ico_search.svg"
+              src="/src/img/icons/ico_search.svg"
               class="w-[50px]"
               alt="search"
             />
@@ -83,7 +83,7 @@
     <main>
       <section
         class="h-[850px] w-full bg-no-repeat bg-cover bg-center pt-5 -mt-[133px]"
-        style="background-image: url(/assets/img/slider/bg.jpg)"
+        style="background-image: url(/src/img/slider/bg.jpg)"
       >
         <div
           class="text-center container mx-auto flex flex-col items-center justify-center h-full"
@@ -106,49 +106,49 @@
         >
           <li class="flex flex-col">
             <img
-              src="/assets/img/icons/wheat.svg"
+              src="/src/img/icons/wheat.svg"
               class="self-center w-[20px]"
               alt="wheat"
             /><span class="text-xl mt-5">Wheat</span>
           </li>
           <li class="flex flex-col">
             <img
-              src="/assets/img/icons/watermelon.svg"
+              src="/src/img/icons/watermelon.svg"
               class="self-center w-[50px]"
               alt="wheat"
             /><span class="text-xl mt-5">Confection Watermelon</span>
           </li>
           <li class="flex flex-col">
             <img
-              src="/assets/img/icons/clover.svg"
+              src="/src/img/icons/clover.svg"
               class="self-center w-[50px]"
               alt="clover"
             /><span class="text-xl mt-5">Clover</span>
           </li>
           <li class="flex flex-col">
             <img
-              src="/assets/img/icons/conf_sunflower.svg"
+              src="/src/img/icons/conf_sunflower.svg"
               class="self-center w-[50px]"
               alt="conf_sunflower"
             /><span class="text-xl mt-5">Confection Sunflower</span>
           </li>
           <li class="flex flex-col">
             <img
-              src="/assets/img/icons/tomato.svg"
+              src="/src/img/icons/tomato.svg"
               class="self-center w-[50px]"
               alt="tomato"
             /><span class="text-xl mt-5">Tomato</span>
           </li>
           <li class="flex flex-col">
             <img
-              src="/assets/img/icons/eggplant.svg"
+              src="/src/img/icons/eggplant.svg"
               class="self-center w-[50px]"
               alt="eggplant"
             /><span class="text-xl mt-5">Eggplant P/O</span>
           </li>
           <li class="flex flex-col">
             <img
-              src="/assets/img/icons/sunflower.svg"
+              src="/src/img/icons/sunflower.svg"
               class="self-center w-[60px]"
               alt="sunflower"
             /><span class="text-xl mt-5">Ornamental Sunflower</span>
@@ -157,7 +157,7 @@
       </section>
       <section
         class="bg-custom-main pt-20 pb-24 space-y-[100px] bg-no-repeat bg-cover bg-center"
-        style="background-image: url(/assets/img/icons/bg-logo.svg)"
+        style="background-image: url(/src/img/icons/bg-logo.svg)"
       >
         <div class="flex justify-between container mx-auto">
           <div class="text-custom-gray-900 max-w-[500px]">
@@ -176,12 +176,12 @@
             </p>
           </div>
           <div class="w-[540px] h-[500px] drop-shadow-3xl">
-            <img src="/assets/img/content/plant_in_hand.jpg" alt="" />
+            <img src="/src/img/content/plant_in_hand.jpg" alt="" />
           </div>
         </div>
         <div class="flex justify-between container mx-auto">
           <div class="w-[540px] h-[500px] drop-shadow-3xl">
-            <img src="/assets/img/content/plants.jpg" alt="" />
+            <img src="/src/img/content/plants.jpg" alt="" />
           </div>
           <div class="text-custom-gray-900 max-w-[500px]">
             <div class="relative pb-[62px]">
@@ -212,7 +212,7 @@
             <ul class="flex justify-between">
               <li class="flex flex-col items-center">
                 <div>
-                  <img src="/assets/img/content/cotton.png" alt="cotton" />
+                  <img src="/src/img/content/cotton.png" alt="cotton" />
                 </div>
                 <h4 class="text-2xl text-custom-green font-bold pt-4">
                   Open field crop seeds
@@ -226,7 +226,7 @@
               </li>
               <li class="flex flex-col items-center">
                 <div>
-                  <img src="/assets/img/content/tommato.png" alt="tommato" />
+                  <img src="/src/img/content/tommato.png" alt="tommato" />
                 </div>
                 <h4 class="text-2xl text-custom-green font-bold pt-4">
                   Vegetable seeds
@@ -240,10 +240,7 @@
               </li>
               <li class="flex flex-col items-center">
                 <div>
-                  <img
-                    src="/assets/img/content/sunflower.png"
-                    alt="sunflower"
-                  />
+                  <img src="/src/img/content/sunflower.png" alt="sunflower" />
                 </div>
                 <h4 class="text-2xl text-custom-green font-bold pt-4">
                   Open field crop seeds
@@ -280,31 +277,27 @@
             <ul class="flex space-x-[14px]">
               <li>
                 <a href="#">
-                  <img src="/assets/img/icons/social/Ico_in.svg" alt="linkedIn"
+                  <img src="/src/img/icons/social/Ico_in.svg" alt="linkedIn"
                 /></a>
               </li>
               <li>
                 <a href="#">
-                  <img
-                    src="/assets/img/icons/social/Ico_inst.svg"
-                    alt="instagram"
+                  <img src="/src/img/icons/social/Ico_inst.svg" alt="instagram"
                 /></a>
               </li>
               <li>
                 <a href="#">
-                  <img
-                    src="/assets/img/icons/social/Ico_tube.svg"
-                    alt="youtube"
+                  <img src="/src/img/icons/social/Ico_tube.svg" alt="youtube"
                 /></a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/assets/img/icons/social/Ico_tw.svg" alt="twitter"
+                  <img src="/src/img/icons/social/Ico_tw.svg" alt="twitter"
                 /></a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/assets/img/icons/social/Ico_fb.svg" alt="meta"
+                  <img src="/src/img/icons/social/Ico_fb.svg" alt="meta"
                 /></a>
               </li>
             </ul>
