@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Roboto Slab", "serif"],
-      sans: ["Roboto", "sans-serif"],
+      serif: ["Roboto", "sans-serif"],
     },
     extend: {
       colors: {
@@ -18,6 +18,11 @@ module.exports = {
           green: "#57984C",
           blue: "#2D3F45",
           brown: "#735440",
+          rose: "#FCF0F0",
+          red: {
+            100: '#FFFAFA',
+            700: "#EB5757",
+          },
         },
       },
       dropShadow: {
