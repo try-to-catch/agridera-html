@@ -22,6 +22,7 @@ module.exports = {
           red: {
             100: '#FFFAFA',
             700: "#EB5757",
+            800: "#CF2333",
           },
         },
       },
