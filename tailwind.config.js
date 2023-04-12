@@ -11,6 +11,7 @@ module.exports = {
         custom: {
           gray: {
             100: "#EDEDED",
+            200: "#DADADA",
             400: "#B9B9B9",
             900: "#324950",
           },
