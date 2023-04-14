@@ -167,11 +167,14 @@
                 </div>
                 <div class="flex flex-col space-y-2.5 text-[17px]">
                     <label for="captcha">Please type this code</label>
-                    <div class="flex items-center justify-between">
-                        <img alt="captcha" class="w-[100px] h-[27px]"
-                             src="/src/images/content/captcha.png">
-                        <input class="border-custom-gray-200 h-[55px] border rounded-xl outline-none px-2.5"
-                               id="captcha" type="text">
+                    <div class="flex items-center flex-col sm:flex-row justify-between">
+                        <div class="flex items-center justify-evenly sm:justify-between w-full mb-3.5 sm:mb-0">
+                            <img alt="captcha" class="w-[100px] h-[27px]"
+                                 src="/src/images/content/captcha.png">
+                            <input class="border-custom-gray-200 h-[55px] border rounded-xl outline-none px-2.5"
+                                   id="captcha" type="text">
+                        </div>
+
                         <button class="text-white bg-custom-green rounded-full px-[70px] py-2.5"
                                 type="submit">Send Message
                         </button>
